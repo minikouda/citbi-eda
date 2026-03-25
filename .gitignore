@@ -1,0 +1,33 @@
+# Data (not tracked)
+data/
+
+# Course instructions (not tracked)
+instructions/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.ipynb_checkpoints/
+
+# Ruff cache
+.ruff_cache/
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.synctex.gz
+
+# macOS
+.DS_Store
+
+# Conda
+.conda/
+
+# IDE
+.vscode/
+.idea/
+
+# Conflicted copies (Dropbox)
+*conflicted copy*

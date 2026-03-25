@@ -1,0 +1,6 @@
+[lint]
+# E402: module-level import not at top of file — expected in Jupyter notebooks
+# E701: multiple statements on one line — common in notebook sys.path setup cells
+# F541: f-string without placeholders — minor style issue in notebooks
+# F841: local variable assigned but never used — common in exploratory notebooks
+per-file-ignores = { "*.ipynb" = ["E402", "E701", "F541", "F841"] }
